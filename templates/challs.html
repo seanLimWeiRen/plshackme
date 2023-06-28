@@ -6,6 +6,32 @@
 
 <body>
     <style>
+    * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  padding: 10px;
+}
+
+.wrapper > div {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+ 
+}
+
         #grad1 {
           height: 300px;
           width: 100%;
@@ -31,16 +57,16 @@
         <div class="w3-display-container w3-green" id="grad1" style="height:30px;">
 
             <div class="w3-display-left w3-padding"><a href="/login">login</a></div>
-            <div class="w3-display-right w3-padding">register</div>
+            <div class="w3-display-right w3-padding"><a href="/logout">logout</a></div>
             <div class="w3-display-middle w3-padding">1337CTF</div>
 
         </div>
     </div>
 
-    <div class="w3-row w3-container">
-        <p>Pwn</p>
-        {% for chall in pwn %}
-        <div class="w3-col s4 w3-container w3-center ">
+<div class="w3-container">
+<br />
+<div class="wrapper">
+{% for chall in pwn %}
             <div class="w3-green ctfchall">
                 <br />
                 <h2>{{ chall['name'] }}</h2>
@@ -50,33 +76,9 @@
                 <br />
                 <br />
             </div>
-        </div>
-        {% endfor %}
-        <div class="w3-col s4 w3-container w3-center ">
-            <div class="w3-green ctfchall">
-                <br />
-                <h2>Challenge Title</h2>
-                <p>Challenge Description</p>
-                <p>Challenge files</p>
-                <input type="text" />
-                <br />
-                <br />
-            </div>
-        </div>
-
-        <div class="w3-col s4 w3-container w3-center ">
-            <div class="w3-green ctfchall">
-                <br />
-                <h2>Challenge Title</h2>
-                <p>Challenge Description</p>
-                <p>Challenge files</p>
-                <input type="text" />
-                <br />
-                <br />
-            </div>
-        </div>
-
-    </div>
+{% endfor %}
+</div>
+</div>
 </body>
 
 </html>

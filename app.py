@@ -72,12 +72,15 @@ def register():
 
 @app.route('/challs')
 def challs():
-   return render_template("challs.html", pwn=pwn)
+    if flask_login.current_user.is_authenticated:
+         return render_template("challs.html", pwn=pwn)
+    else:
+         return redirect(url_for('index'))
 
 @app.route('/logout')
 def logout():
     flask_login.logout_user()
-    return 'Logged out'
+    return redirect(url_for('index'))
 
 if __name__ == '__main__':
    app.run()
