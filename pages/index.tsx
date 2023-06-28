@@ -27,4 +27,4 @@ export default function Home() {
     <img src="https://i.ibb.co/ctzjQYx/plshackme.png" alt="plshackme logo" width="400" height="400" className={styles.center} />
   </>
   );
-  }
+}
