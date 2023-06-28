@@ -4,6 +4,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<script>
+    function myFunction() {
+      var x = document.getElementById("vvll");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+</script>
+
 <body>
     <style>
         #grad1 {
@@ -20,7 +31,17 @@
         .ctfchall {
             border: 2px solid red;
             font-family: serif;
-         }
+        }
+        .parent {
+            margin: 1rem;
+            text-align: center;
+        }
+        .child {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+        }
+         
          
     </style>
 
@@ -45,8 +66,13 @@
                 <h2>Login</h2>
                 <form action = "http://localhost:5000/login" method = "POST">
                 <p><span>Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="email" /></span></p>
-                <p><span>Password: &nbsp<input type="password" name="password" /></span></p>
+                <p><span>Password: &nbsp<input type="password" name="password" id="vvll" /></span></p>
+                <div class='parent'>
+                    <div class='child'><p>Show Password</p></div>
+                    <div class='child'><input type="checkbox" onclick="myFunction()"></div>
+                </div>
                 <p><input type = "submit" value = "Log in" /></p>
+                
                 </form>
                 <br />
                 <br />
