@@ -43,6 +43,10 @@
         body, h2 {
           font-family: serif;
          }
+        body, h1 {
+            font-family: 'Courier New', Courier, monospace;
+            color: MediumSeaGreen;
+        }
         .ctfchall {
             border: 2px solid red;
             font-family: serif;
@@ -65,6 +69,7 @@
 
 <div class="w3-container">
 <br />
+<h1>PWN</h1>
 <div class="wrapper">
     {% for chall in pwn %}
         <div class="w3-green ctfchall">
@@ -79,6 +84,7 @@
     {% endfor %}
 </div>
 <br/>
+<h1>OSINT</h1>
 <div class="wrapper">
     {% for chall in osint %}
         <div class="w3-green ctfchall">
@@ -93,6 +99,7 @@
     {% endfor %}
 </div>
 <br/>
+<h1>WEB</h1>
 <div class="wrapper">
     {% for chall in web %}
         <div class="w3-green ctfchall">
@@ -107,6 +114,7 @@
     {% endfor %}
 </div>
 <br/>
+<h1>MISC</h1>
 <div class="wrapper">
     {% for chall in misc %}
         <div class="w3-green ctfchall">
@@ -121,6 +129,7 @@
     {% endfor %}
 </div>
 <br/>
+<h1>FORENSICS</h1>
 <div class="wrapper">
     {% for chall in forensics %}
                 <div class="w3-green ctfchall">
@@ -135,6 +144,7 @@
     {% endfor %}
 </div>
 <br/>
+<h1>CRYPTO</h1>
 <div class="wrapper">
     {% for chall in crypto %}
         <div class="w3-green ctfchall">

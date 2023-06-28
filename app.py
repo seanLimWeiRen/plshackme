@@ -19,23 +19,23 @@ misc = challs['MISCELLANEOUS']
 forensics = challs['FORENSICS']
 crypto = challs['CRYPTO']
 
-for pwnchall in pwn:
-    pprint.pprint(pwnchall['name'])
+# for pwnchall in pwn:
+#     pprint.pprint(pwnchall['name'])
 
-for osintchall in osint:
-    pprint.pprint(osintchall['name'])
+# for osintchall in osint:
+#     pprint.pprint(osintchall['name'])
 
-for webchall in web:
-    pprint.pprint(webchall['name'])
+# for webchall in web:
+#     pprint.pprint(webchall['name'])
 
-for miscchall in misc:
-    pprint.pprint(miscchall['name'])
+# for miscchall in misc:
+#     pprint.pprint(miscchall['name'])
 
-for forenchall in forensics:
-    pprint.pprint(forenchall['name'])
+# for forenchall in forensics:
+#     pprint.pprint(forenchall['name'])
 
-for cryptochall in crypto:
-    pprint.pprint(cryptochall['name'])
+# for cryptochall in crypto:
+#     pprint.pprint(cryptochall['name'])
 
 #best db
 users = {'foo@bar.tld': {'password': 'secret'}}
