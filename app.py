@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, url_for, redirect
 import flask_login, json, pprint
+# DEBUG COMMIT, IGNORE PLS
 
 app = Flask(__name__)
 app.secret_key = 'sdjvvllsdaiodoasdhuiADIUDHius283907329487987@%$%'
