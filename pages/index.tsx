@@ -25,7 +25,7 @@ export default function Home() {
         </div>
     </div>
     <br />
-    <Image src="https://i.ibb.co/ctzjQYx/plshackme.png" alt="plshackme logo" width="400" height="400" className={styles.center} />
+    <Image src="/Logo.png" alt="plshackme logo" width="400" height="400" className={styles.center} />
   </>
   );
 }
