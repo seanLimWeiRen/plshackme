@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image'
 import styles from '../styles/home.module.scss';
 export default function Home() {
   return (
@@ -25,7 +24,7 @@ export default function Home() {
         </div>
     </div>
     <br />
-    <Image src="https://i.ibb.co/ctzjQYx/plshackme.png" alt="plshackme logo" width="400" height="400" className={styles.center} />
+    <img src="https://i.ibb.co/ctzjQYx/plshackme.png" alt="plshackme logo" width="400" height="400" className={styles.center} />
   </>
   );
 }

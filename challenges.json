@@ -1,0 +1,279 @@
+{
+    "PWN": [
+        {
+            "name": "Piggy_Bank",
+            "points": 287,
+            "solves": 64,
+            "desc": "DESCRIPTION\n\nTime to save your angbao money! $_$\n\nnc chals.whitehacks.ctf.sg 20101\n\nSolve this challenge to unlock Piggy_Bank_Revenge!\n"
+        },
+        {
+            "name": "Piggy_Bank_Revenge",
+            "points": 539,
+            "solves": 51,
+            "desc": "DESCRIPTION\n\nSeems there was an issue with the previous implementation. I've introduced a HOTFIX that should prevent any further vulnerabilities. I've achieved an unhackable piggy bank now for sure.\n\nnc chals.whitehacks.ctf.sg 20201\n\nThis will require a bit more knowledge about programming than Piggy Bank. Give it a try and learn something new(?)"
+        },
+        {
+            "name": "Puddi Puddi",
+            "points": 981,
+            "solves": 12,
+            "desc": "DESCRIPTION\n\nWhy have a MEGA 🍮 when you can have a GIGA 🍮?\n\nInteract with the service using nc chals.whitehacks.ctf.sg 20301 to get started!"
+        },
+        {
+            "name": "Hopscotch",
+            "points": 991,
+            "solves": 5,
+            "desc": "DESCRIPTION\n\nOne childhood pasttime I never got to experience much is Hopscotch, a game where you jump and hop over boxes to reach to the goal.\n\nWon't you play with me?\n\nnc chals.whitehacks.ctf.sg 20401"
+        },
+        {
+            "name": "Padoru Padoru",
+            "points": 992,
+            "solves": 4,
+            "desc": "DESCRIPTION\n\nLet's wrap some gifts to prepare for xmas 2021! ʕ0ᴥ0ʔ\n\nInteract with the service using chals.whitehacks.ctf.sg 20001 to get started!\n\nNote: this challenge requires libssl to be installed to run."
+        }
+    ],
+    "OSINT": [
+        {
+            "name": "Birthday Surprise A - Age Unknown",
+            "points": 108,
+            "solves": 98,
+            "desc": "DESCRIPTION\n\nSo, it's my friend's birthday soon and I want to surprise him. His name is Andrew Yeoh Boon How and I heard he's quite active on Twitter. Can you help me find out when is his birthday?\nNote: Making any contact with the person is out of scope."
+        },
+        {
+            "name": "Birthday Surprise B - The Cake Still Tick-Tocking",
+            "points": 119,
+            "solves": 90,
+            "desc": "DESCRIPTION\n\nNow that we found out when is his birthday, we need to find out his favourite cake! He might have other social media. Not really sure though, he never mentioned it to me. The only thing I know is that he said he often vlogged somewhere.\n\nHint: Try checking out all the common social media platform where he can do and submit vlog.\n\nNote: Making any contact with the person is out of scope."
+        },
+        {
+            "name": "Birthday Surprise C - No Place Like Home",
+            "points": 235,
+            "solves": 69,
+            "desc": "DESCRIPTION\n\nGreat! Now this might sounds bad, but I have no clue where he lives. Can you help me find out where?\n\nHint: Try to see if the person have any other social media besides the two you've found on the previous challenge\n\nNote: Making any contact with the person and visiting any location physically with regards to this challenge is out of scope."
+        }
+    ],
+    "WEB": [
+        {
+            "name": "infant web",
+            "points": 128,
+            "solves": 86,
+            "desc": "DESCRIPTION\n\nToday is the day to begin your web security journey!\n\nchals.whitehacks.ctf.sg:50301\n\nI highly encourage you to try this challenge even if you've never done web security before. It is intended for people with zero pre-requisite to web security.\n\nIf you're a web security wizard, you can consider passing this challenging on to your teammates.\n\nNote: Hints will be generous for this challenge, feel free to get help from an admin (NOT OTHER TEAMS)."
+        },
+        {
+            "name": "X marks Louis's treasure",
+            "points": 940,
+            "solves": 24,
+            "desc": "DESCRIPTION\n\nFinding a web page that leads to Louis' hidden treasure on his server HEHEHEHE\n\nchals.whitehacks.ctf.sg:50101"
+        },
+        {
+            "name": "BabyPHP",
+            "points": 966,
+            "solves": 18,
+            "desc": "DESCRIPTION\n\nJohn is trying to juggle between learning PHP and his other homework. Fortunately, he managed to complete his PHP task - creating a simple web login. He challenges you to find a way to bypass his login.\n\nTake a look at his PHP masterpiece now! chals.whitehacks.ctf.sg:50201\n\nNote: You DO NOT need any form of brute force or directory busting to complete this challenge!"
+        },
+        {
+            "name": "WAF Bypass",
+            "points": 986,
+            "solves": 9,
+            "desc": "DESCRIPTION\n\nCan you get flag from the environment?\n\nchals.whitehacks.ctf.sg:50401"
+        }
+    ],
+    "MISCELLANEOUS": [
+        {
+            "name": "Free Door Gift",
+            "points": 100,
+            "solves": 89,
+            "desc": "DESCRIPTION\n\nFind this flag in our village!"
+        },
+        {
+            "name": "Feedback Captcha",
+            "points": 100,
+            "solves": 86,
+            "desc": "DESCRIPTION\n\nAdd a description"
+        },
+        {
+            "name": "It's a wrap!",
+            "points": 100,
+            "solves": 76,
+            "desc": "DESCRIPTION\n\nHelp us do our Day 2 feedback form! :) Link here"
+        },
+        {
+            "name": "More than Meets the Eye?",
+            "points": 886,
+            "solves": 31,
+            "desc": "DESCRIPTION\n\nIs there something here that's‌​‌​‌‌‌⁠‌​​‌​​​⁠‌‌​​‌​⁠‌‌​​​​⁠‌‌​​‌​⁠‌‌​​​​⁠‌‌‌‌​‌‌⁠‌‌‌‌​‌​⁠‌‌​​‌‌⁠‌‌‌​​‌​⁠‌‌​​​​⁠‌​‌‌‌‌‌⁠‌‌‌​‌‌‌⁠‌‌​​​‌⁠‌‌​​‌​​⁠‌‌‌​‌​​⁠‌‌​‌​​​⁠‌​‌‌‌‌‌⁠‌‌​​​‌‌⁠‌‌​﻿‌​‌​‌‌‌⁠‌​​‌​​​⁠‌‌​​‌​⁠‌‌​​​​⁠‌‌​​‌​⁠‌‌​​​‌⁠‌‌‌‌​‌‌⁠‌‌‌‌​‌​⁠‌‌​​‌‌⁠‌‌‌​​‌​⁠‌‌​​​​⁠‌​‌‌‌‌‌⁠‌‌‌​‌‌‌⁠‌‌​​​‌⁠‌‌​​‌​​⁠‌‌‌​‌​​⁠‌‌​‌​​​⁠‌​‌‌‌‌‌⁠‌‌​​​‌‌⁠‌‌​‌​​​⁠‌​​​​​​⁠‌‌‌​​‌​⁠‌​​​​​​⁠‌‌​​​‌‌⁠‌‌‌​‌​​⁠‌‌​​‌‌⁠‌‌‌​​‌​⁠‌​‌‌‌‌‌⁠‌‌​​​‌‌⁠‌‌​​​​⁠‌‌‌​‌​‌⁠‌​​‌‌‌​⁠‌‌‌​‌​​⁠‌​‌​​‌‌⁠‌​‌‌‌‌‌⁠‌‌‌​‌​​⁠‌‌​​​​⁠‌‌​​​​⁠‌‌‌‌‌​‌﻿‌​​​⁠‌​​​​​​⁠‌‌‌​​‌​⁠‌​​​​​​⁠‌‌​​​‌‌⁠‌‌‌​‌​​⁠‌‌​​‌‌⁠‌‌‌​​‌​⁠‌​‌‌‌‌‌⁠‌‌​​​‌‌⁠‌‌​​​​⁠‌‌‌​‌​‌⁠‌​​‌‌‌​⁠‌‌‌​‌​​⁠‌​‌​​‌‌⁠‌​‌‌‌‌‌⁠‌‌‌​‌​​⁠‌‌​​​​⁠‌‌​​​​⁠‌‌‌‌‌​‌ more than meets the eye?\n"
+        },
+        {
+            "name": "SnakeShell",
+            "points": 972,
+            "solves": 16,
+            "desc": "DESCRIPTION\n\nWe have employed the best snakes in the industry to perform automatic hacking for you. You simply need to enter the target IP address and number of tries and it will infiltrate the system for you.\n\nAll will be done so easily, just like what you see in movies. Experience the power of this tool now!\n\nnc chals.whitehacks.ctf.sg 10111"
+        },
+        {
+            "name": "Eight Masketeers",
+            "points": 992,
+            "solves": 4,
+            "desc": "DESCRIPTION\n\nAlice discovered a note (titled 8 MASKeteers) left behind by Bob after a lesson on bitwise operations.\n\nShe believes that it is some sort of the \"new bitwise masking technique which can extract large amount of information\" that Bob had been talking about during class.\n\nAre you able to help Alice decode the message?\n"
+        }
+    ],
+    "FORENSICS": [
+        {
+            "name": "Is it really?",
+            "points": 710,
+            "solves": 43,
+            "desc": "DESCRIPTION\n\nA malicious file was downloaded and picked up by our antivirus...\n"
+        },
+        {
+            "name": "Can you handle these files?",
+            "points": 979,
+            "solves": 13,
+            "desc": "DESCRIPTION\n\nDownload the memory image from one of the sources.\nAn attacker is in our system and has left a note behind. Can you find the link in his note that leads us to the flag? Hint: Flag can be found by accessing the URL.\nGoogle Drive OneDrive"
+        }
+    ],
+    "GOVTECH": [
+        {
+            "name": "IoT Security #1",
+            "points": 100,
+            "solves": 13,
+            "desc": "DESCRIPTION\n\nWhat did you learn about IoT Security?"
+        },
+        {
+            "name": "IoT Security #2",
+            "points": 100,
+            "solves": 71,
+            "desc": "DESCRIPTION\n\nWhat else did you learn about IoT?"
+        },
+        {
+            "name": "GovTech Villager Reward #1",
+            "points": 100,
+            "solves": 47,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "GovTech Villager Reward #2",
+            "points": 100,
+            "solves": 43,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "An unhappy employee",
+            "points": 972,
+            "solves": 16,
+            "desc": "DESCRIPTION\n\nFred Chee Hong Kat, a developer for Bug Bug Dev Ptd. Ltd, is a disgruntled employee with poor security hygiene! He has been flagged multiple times for poor password practices! Now, it finally hits him! Our threat intelligence feed discovered a set of leaked credentials available on the Dark Web. Can you help us investigate the matter? We need to know if our company's secrets are compromised!"
+        },
+        {
+            "name": "Bug Bug Infestation",
+            "points": 991,
+            "solves": 5,
+            "desc": "DESCRIPTION\n\nOur employee has been complaining of strange PDF files been downloaded onto his laptop. As a reactive measure, our forensics team have setup network monitoring to capture any strange network behaviour coming from his laptop.\n\nInvestigate this pcap file and find evidence of a possible BugBug Malware Infection?\n"
+        }
+    ],
+    "CSIT": [
+        {
+            "name": "AMA #1",
+            "points": 100,
+            "solves": 79,
+            "desc": "DESCRIPTION\n\nGot your questions answered?"
+        },
+        {
+            "name": "AMA #2",
+            "points": 100,
+            "solves": 76,
+            "desc": "DESCRIPTION\n\nGot more questions answered?"
+        },
+        {
+            "name": "CSIT Villager Reward #1",
+            "points": 100,
+            "solves": 47,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "CSIT Villager Reward #2",
+            "points": 100,
+            "solves": 45,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "A Perfectly Normal App (A)",
+            "points": 495,
+            "solves": 8,
+            "desc": "DESCRIPTION\n\nTwo flags have been hidden in this Android Application.\n\nThe first flag is hidden somewhere in the Java code, and requires the reversal of a simple ciphering function.\n\nThe second flag requires an understanding of the JNI calls involved and the native code called in order to decrypt the hidden flag."
+        },
+        {
+            "name": "This requires a very Smart Attack (A)",
+            "points": 500,
+            "solves": 1,
+            "desc": "DESCRIPTION\n\nSo Pat has learnt some Elliptic Curve Point Multiplication and she was like \"I wanna implement some Dual_EC_DRBG\" and I'm like \"Isn't that the one with the fishy NSA backdoor?\" but then she was like \"I'm gonna generate my own curve\".\n\nSo anyways she encrypted secret.txt with a key and threw away secret.txt and said key.\n\nAnd I want them back. Can you decrypt as much of secret.txt as you can and recover the key?"
+        },
+        {
+            "name": "This requires a very Smart Attack (B)",
+            "points": 500,
+            "solves": 1,
+            "desc": "DESCRIPTION\n\nSo Pat has learnt some Elliptic Curve Point Multiplication and she was like \"I wanna implement some Dual_EC_DRBG\" and I'm like \"Isn't that the one with the fishy NSA backdoor?\" but then she was like \"I'm gonna generate my own curve\".\n\nSo anyways she encrypted secret.txt with a key and threw away secret.txt and said key.\n\nAnd I want them back. Can you decrypt as much of secret.txt as you can and recover the key?"
+        },
+        {
+            "name": "A Perfectly Normal App (B)",
+            "points": 500,
+            "solves": 0,
+            "desc": "DESCRIPTION\n\nTwo flags have been hidden in this Android Application.\n\nThe first flag is hidden somewhere in the Java code, and requires the reversal of a simple ciphering function.\n\nThe second flag requires an understanding of the JNI calls involved and the native code called in order to decrypt the hidden flag."
+        }
+    ],
+    "CSA": [
+        {
+            "name": "OSINT with Github #1",
+            "points": 100,
+            "solves": 79,
+            "desc": "DESCRIPTION\n\nWhat did you learn about Github?"
+        },
+        {
+            "name": "OSINT with Github #2",
+            "points": 100,
+            "solves": 81,
+            "desc": "DESCRIPTION\n\nWhat else did you learn?"
+        },
+        {
+            "name": "CSA Villager Reward #1",
+            "points": 100,
+            "solves": 70,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "CSA Villager Reward #2",
+            "points": 100,
+            "solves": 70,
+            "desc": "DESCRIPTION\n\nVisit us at the Sponsors' Village!\n\nFor those who are looking for the sponsor village reward, do remember to ask questions! If you have no questions, you could also ask for a task in exchange for it 🙂"
+        },
+        {
+            "name": "Sweet Tooth",
+            "points": 710,
+            "solves": 44,
+            "desc": "DESCRIPTION\n\nHelp! There's an attacker who wants to use CSA's website for phishing! He had to copy CSA's web codes somewhere!\n\nFind out who is the attacker.\n\nP.S. We heard rumours that the attacker have some liking for Singaporean desserts"
+        },
+        {
+            "name": "Bad Code Practices :(",
+            "points": 954,
+            "solves": 21,
+            "desc": "DESCRIPTION\n\nLooking at the codes, it seems that the attacker made multiple commits to hide a secret key."
+        }
+    ],
+    "CRYPTO": [
+        {
+            "name": "LENcrypt",
+            "points": 986,
+            "solves": 9,
+            "desc": "DESCRIPTION\n\nWe modified the encryption algorithm so it will work despite losing the password... Probably."
+        },
+        {
+            "name": "Secure Banking",
+            "points": 986,
+            "solves": 9,
+            "desc": "DESCRIPTION\n\nYour friend Peter has built a new online transaction and banking service called AAA Banking. He claims it is extremely secure, using SHA256 hashing to create and verify HMACs. To get you onto the platform, he has sent you $20 for free! Try it out now! Check out the platform!\n\nYou are given the following details:\nDetails: ZnJvbT1QZXRlciZhbW91bnQ9MjA=\nVerification Hash: 24a2efde8a32e7046aaeb11eb32a37ecf49937ef84c7a6b4bd943556fd2369cd\n\nHowever, as a White Hacker, you are obviously sceptical of such a website.\n\nKnowing that your friend is also an Admin and has over millions of dollars, can you get him to send you a million dollars as Admin?\n\nNote: You DO NOT need any form of brute force or directory busting to complete this challenge!"
+        },
+        {
+            "name": "BasedRSA",
+            "points": 1000,
+            "solves": 2,
+            "desc": "DESCRIPTION\n\nRSA can be pretty based"
+        }
+    ]
+}
+
