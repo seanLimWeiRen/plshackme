@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect
 import flask_login, json, pprint
 
 app = Flask(__name__)
-app.secret_key = 'sdjvvsllsdaiodoasdhuiADIUDHius283907329487987@%$%'
+app.secret_key = 'sdjvvllsdaiodoasdhuiADIUDHius283907329487987@%$%'
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 
