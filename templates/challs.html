@@ -66,18 +66,87 @@
 <div class="w3-container">
 <br />
 <div class="wrapper">
-{% for chall in pwn %}
-            <div class="w3-green ctfchall">
-                <br />
+    {% for chall in pwn %}
+        <div class="w3-green ctfchall">
+            <br />
                 <h2>{{ chall['name'] }}</h2>
                 <p>{{ chall['desc'] }}</p>
                 <p>Challenge files</p>
                 <input type="text" />
-                <br />
-                <br />
-            </div>
-{% endfor %}
+             <br />
+            <br />
+        </div>
+    {% endfor %}
 </div>
+<br/>
+<div class="wrapper">
+    {% for chall in osint %}
+        <div class="w3-green ctfchall">
+            <br />
+            <h2>{{ chall['name'] }}</h2>
+            <p>{{ chall['desc'] }}</p>
+            <p>Challenge files</p>
+            <input type="text" />
+            <br />
+            <br />
+        </div>
+    {% endfor %}
+</div>
+<br/>
+<div class="wrapper">
+    {% for chall in web %}
+        <div class="w3-green ctfchall">
+            <br />
+            <h2>{{ chall['name'] }}</h2>
+            <p>{{ chall['desc'] }}</p>
+            <p>Challenge files</p>
+            <input type="text" />
+            <br />
+            <br />
+        </div>
+    {% endfor %}
+</div>
+<br/>
+<div class="wrapper">
+    {% for chall in misc %}
+        <div class="w3-green ctfchall">
+            <br />
+            <h2>{{ chall['name'] }}</h2>
+            <p>{{ chall['desc'] }}</p>
+            <p>Challenge files</p>
+            <input type="text" />
+            <br />
+            <br />
+        </div>
+    {% endfor %}
+</div>
+<br/>
+<div class="wrapper">
+    {% for chall in forensics %}
+                <div class="w3-green ctfchall">
+                    <br />
+                    <h2>{{ chall['name'] }}</h2>
+                    <p>{{ chall['desc'] }}</p>
+                    <p>Challenge files</p>
+                    <input type="text" />
+                    <br />
+                    <br />
+                </div>
+    {% endfor %}
+</div>
+<br/>
+<div class="wrapper">
+    {% for chall in crypto %}
+        <div class="w3-green ctfchall">
+            <br />
+            <h2>{{ chall['name'] }}</h2>
+            <p>{{ chall['desc'] }}</p>
+            <p>Challenge files</p>
+            <input type="text" />
+            <br />
+            <br />
+        </div>
+    {% endfor %}
 </div>
 </body>
 

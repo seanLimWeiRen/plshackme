@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect
 import flask_login, json, pprint
-# DEBUG COMMIT, IGNORE PLS
 
 app = Flask(__name__)
 app.secret_key = 'sdjvvllsdaiodoasdhuiADIUDHius283907329487987@%$%'
@@ -14,9 +13,29 @@ challstxt.close()
 challs = json.loads(challsjson)
 
 pwn = challs['PWN']
+osint = challs['OSINT']
+web = challs['WEB']
+misc = challs['MISCELLANEOUS']
+forensics = challs['FORENSICS']
+crypto = challs['CRYPTO']
 
 for pwnchall in pwn:
     pprint.pprint(pwnchall['name'])
+
+for osintchall in osint:
+    pprint.pprint(osintchall['name'])
+
+for webchall in web:
+    pprint.pprint(webchall['name'])
+
+for miscchall in misc:
+    pprint.pprint(miscchall['name'])
+
+for forenchall in forensics:
+    pprint.pprint(forenchall['name'])
+
+for cryptochall in crypto:
+    pprint.pprint(cryptochall['name'])
 
 #best db
 users = {'foo@bar.tld': {'password': 'secret'}}
@@ -74,7 +93,7 @@ def register():
 @app.route('/challs')
 def challs():
     if flask_login.current_user.is_authenticated:
-         return render_template("challs.html", pwn=pwn)
+         return render_template("challs.html", pwn=pwn, osint=osint, web=web, misc=misc, forensics=forensics, crypto=crypto)
     else:
          return redirect(url_for('index'))
 
