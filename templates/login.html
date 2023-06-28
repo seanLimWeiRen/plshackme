@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
+<html>
+<title>1337CTF</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <body>
-    <h1>Login Page</h1>
+    <style>
+        #grad1 {
+          height: 300px;
+          width: 100%;
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(to right, blue , green);
+          border: 2px solid red;
+         
+        }
+        body, h2 {
+          font-family: serif;
+         }
+        .ctfchall {
+            border: 2px solid red;
+            font-family: serif;
+         }
+         
+    </style>
+
+    <br />
+
+    <div class="w3-container w3-bar">
+
+        <div class="w3-display-container w3-green" id="grad1" style="height:30px;">
+
+            <div class="w3-display-left w3-padding">homepage</div>
+            <div class="w3-display-right w3-padding">register</div>
+            <div class="w3-display-middle w3-padding">1337CTF</div>
+
+        </div>
+    </div>
+<br />
+    <div class="w3-container">
+
+        <div class="w3-container w3-center ">
+            <div class="w3-green ctfchall">
+                <br />
+                <h2>Login</h2>
+                <form action = "http://localhost:5000/login" method = "POST">
+                <p><span>Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="email" /></span></p>
+                <p><span>Password: &nbsp<input type="password" name="password" /></span></p>
+                <p><input type = "submit" value = "Log in" /></p>
+                </form>
+                <br />
+                <br />
+            </div>
+        </div>
+
+
+    </div>
 </body>
+
 </html>

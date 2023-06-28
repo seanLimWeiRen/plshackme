@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html>
-<title>plshack me</title>
+<title>1337CTF</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <body>
+    <style>
+        #grad1 {
+          height: 300px;
+          width: 100%;
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(to right, blue , green);
+          border: 2px solid red;
+         
+        }
+        body, h2 {
+          font-family: serif;
+         }
+        .ctfchall {
+            border: 2px solid red;
+            font-family: serif;
+         }
+         
+    </style>
 
-<div class="w3-bar w3-border w3-light-grey">
+    <br />
 
-  <a href="#" class="w3-bar-item w3-button">pr0 haxx0r ctf platform</a>
+    <div class="w3-container w3-bar">
 
-  <a href="#" class="w3-bar-item w3-button w3-green w3-right">1337 ppl only</a>
-</div> 
+        <div class="w3-display-container w3-green" id="grad1" style="height:30px;">
 
-<div class="w3-container">
-<br />
-<form class="w3-container w3-card">
-  <p>
-  <label>real email (no burner allowed)</label>
-  <input class="w3-input" type="text"></p>
-  <p>
-  <label>password (must be same as other accoutns)</label>
-  <input class="w3-input" type="password"></p>
-  <input type="submit" value="Submit">
+            <div class="w3-display-left w3-padding"><a href="/login">login</a></div>
+            <div class="w3-display-right w3-padding"><a href="/register">register</a></div>
+            <div class="w3-display-middle w3-padding">1337CTF</div>
 
-</form>
-<br />
-</div>
-<div class="w3-container w3-teal">
-  <p>"at least better than dunhack.me, a lot better. One of the best if not the best." - LiveOverflow</p>
-</div>
+        </div>
+    </div>
 
+    <div class="w3-row w3-container">
+        <p>Category Title</p>
+
+        <div class="w3-col s4 w3-container w3-center ">
+            <div class="w3-green ctfchall">
+                <br />
+                <h2>Challenge Title</h2>
+                <p>Challenge Description</p>
+                <p>Challenge files</p>
+                <input type="text" />
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-container w3-center ">
+            <div class="w3-green ctfchall">
+                <br />
+                <h2>Challenge Title</h2>
+                <p>Challenge Description</p>
+                <p>Challenge files</p>
+                <input type="text" />
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-container w3-center ">
+            <div class="w3-green ctfchall">
+                <br />
+                <h2>Challenge Title</h2>
+                <p>Challenge Description</p>
+                <p>Challenge files</p>
+                <input type="text" />
+                <br />
+                <br />
+            </div>
+        </div>
+
+    </div>
 </body>
-</html> 
+
+</html>
