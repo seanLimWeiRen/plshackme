@@ -5,3 +5,9 @@
 # Features:
 - working login system (not anymore)
 - 1337 retro theme
+
+# Development
+
+Start with `npm run build` and `npm run start`
+
+Its not broken Sanjit you just don't know how to start it
