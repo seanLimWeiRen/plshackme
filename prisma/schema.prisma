@@ -17,3 +17,21 @@ model User {
   username      String   @unique 
   email         String   @unique
 }
+
+model Category{
+  id            Int      @id @map("_id")
+  name          String   @unique
+  challenges    Challenge[]
+}
+
+model Challenge{
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  title         String
+  hash          String
+  solves        Int
+  category      Category @relation(fields: [categoryName], references: [name])
+  categoryName  String
+  description   String
+  flag          String
+  ctfname       String
+}

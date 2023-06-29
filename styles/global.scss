@@ -1,0 +1,44 @@
+ .wrapper {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  padding: 10px;
+}
+
+.wrapper > div {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+}
+  
+#grad1 {
+    height: 300px;
+    width: 100%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, blue , green);
+    border: 2px solid red;
+}
+
+body, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: MediumSeaGreen;
+}
+
+.ctfchall {
+    border: 2px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+           
