@@ -16,6 +16,7 @@ model User {
   name          String
   username      String   @unique 
   email         String   @unique
+  passwordHash  String
 }
 
 model Category{

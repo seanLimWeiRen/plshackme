@@ -11,3 +11,11 @@
 Start with `npm run build` and `npm run start`
 
 Its not broken Sanjit you just don't know how to start it
+
+# TODO
+
+Implement everything :thumbsup:
+
+Set explicit types for every variable
+
+Standardize formatting
