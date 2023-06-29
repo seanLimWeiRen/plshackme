@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/home.module.scss';
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
     <div className="w3-container w3-bar">
         <div className="w3-display-container w3-green" id={styles.grad1} style={{ height: '30px' }}>
             <div className="w3-display-left w3-padding">
-              <a href="/login">login</a>
+              <Link href="/login">login</Link>
               </div>
             <div className="w3-display-right w3-padding">
-              <a href="/register">register</a>
+              <Link href="/register">register</Link>
               </div>
             <div className="w3-display-middle w3-padding">
               <strong>1337CTF</strong>
