@@ -21,6 +21,8 @@ Its not broken Sanjit you just don't know how to start it
 
 # TODO
 
+The registration page is buggy af 
+
 Get a salt for the reigstration thingy ma bob
 
 Implement login
