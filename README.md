@@ -21,7 +21,13 @@ Its not broken Sanjit you just don't know how to start it
 
 # TODO
 
-Implement everything :thumbsup:
+Get a salt for the reigstration thingy ma bob
+
+Implement login
+
+Implement challenges
+
+Fix the issues with the current registration
 
 Set explicit types for every variable
 
