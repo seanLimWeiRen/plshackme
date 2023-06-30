@@ -12,7 +12,6 @@ export default async function createUser(req: any, res: any) {
     }
 
     const passwordHash = bcrypt.hashSync(password)
-    // NOTE: In the future we will need to revalidate the profile page as well as the scoreboard
     const result = await createUserAccount(username, email, passwordHash)
     res.status(200).json({ result: result });
   } else {
