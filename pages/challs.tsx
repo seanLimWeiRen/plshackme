@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/home.module.scss';
 import { getAllChallenges, getCategories } from '@/server/challenges';
+
 export default function Home(challenges: any) {
   console.log(challenges)
   return (

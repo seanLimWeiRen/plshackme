@@ -46,7 +46,7 @@ export async function createUserAccount(
 
   if(user){
     // duplicate username
-    return 1
+    return "This username is already registered"
   }
 
   user = await prisma.user.findFirst({
@@ -57,7 +57,7 @@ export async function createUserAccount(
 
   if(user){
     // duplicate email
-    return 2
+    return "This email is already registered"
   }
 
   try{
@@ -70,9 +70,9 @@ export async function createUserAccount(
       }
     })
     // successful
-    return 0
+    return "Success"
   } catch(e){
     console.log(e)
-    return 3
+    return "An unkonwn error has occured"
   }
 }

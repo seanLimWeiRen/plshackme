@@ -4,9 +4,16 @@
 
 # Features:
 - working login system (not anymore)
+- working registration system (yay)
 - 1337 retro theme
 
 # Development
+
+You will need mongodb to run this!
+Put your mongodb url in the .env file. It should look like this:
+```
+DATABASE_URL = "<username>:<password>@mongodblink"
+```
 
 Start with `npm run build` and `npm run start`
 

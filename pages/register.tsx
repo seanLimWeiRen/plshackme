@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import bcrypt from 'bcryptjs';
 
 export default function Register() {
+  // There is at least one vulnerabliity in this code (probably)
+  // Also, the setErrorMessage functiond doesn't work. idk why
   const [displayName, setDisplayName] = useState('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const passwordHash = bcrypt.hashSync(password)
 
   const handleRegister = async () => {
     try {
@@ -18,21 +22,22 @@ export default function Register() {
           displayName,
           username,
           email,
-          password,
+          passwordHash,
         }),
       });
 
       if (response.ok) {
-        // Registration successful
-        setErrorMessage('');
-        // Redirect or perform any other necessary actions
-      } else {
-        // Registration failed
-        const data = await response.json();
-        setErrorMessage(data.message);
+        const result = await response.json()
+        if(result.message != "Success"){
+          setErrorMessage(result.message);
+        }else{
+          setErrorMessage('Signed up successfully!')
+        }
+      }else{
+        setErrorMessage("Failed")
       }
     } catch (error) {
-      console.error('Error during registration:', error);
+      console.error(error);
       setErrorMessage('An error occurred during registration.');
     }
   };
