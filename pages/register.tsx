@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import bcrypt from 'bcryptjs';
 
 export default function Register() {
   // There is at least one vulnerabliity in this code (probably)
@@ -10,8 +9,6 @@ export default function Register() {
 
   const handleRegister = async () => {
     try {
-      const passwordHash = bcrypt.hashSync(password)
-
       const response = await fetch('/api/createUser', {
         method: 'POST',
         headers: {
@@ -20,7 +17,7 @@ export default function Register() {
         body: JSON.stringify({
           username,
           email,
-          passwordHash,
+          password,
         }),
       });
 
@@ -67,6 +64,7 @@ export default function Register() {
         </button>
       </form>
       {errorMessage && <p>{errorMessage}</p>}
+      <h4>Don&apos;t forget your password! We haven&apos;t implemented resetting yet.</h4>
     </div>
   );
 }
