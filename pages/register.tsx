@@ -4,7 +4,6 @@ import bcrypt from 'bcryptjs';
 export default function Register() {
   // There is at least one vulnerabliity in this code (probably)
   // Also, the setErrorMessage functiond doesn't work. idk why
-  const [displayName, setDisplayName] = useState('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -19,7 +18,6 @@ export default function Register() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          displayName,
           username,
           email,
           passwordHash,
@@ -28,13 +26,10 @@ export default function Register() {
 
       if (response.ok) {
         const result = await response.json()
-        if(result.message != "Success"){
-          setErrorMessage(result.message);
-        }else{
-          setErrorMessage('Signed up successfully!')
-        }
+        console.log(result.result)
+        setErrorMessage(result.result)
       }else{
-        setErrorMessage("Failed")
+        setErrorMessage("Something went wrong!")
       }
     } catch (error) {
       console.error(error);
@@ -46,12 +41,6 @@ export default function Register() {
     <div>
       <h2>Register</h2>
       <form>
-        <input
-          type="text"
-          placeholder="Display Name"
-          value={displayName}
-          onChange={(e) => setDisplayName(e.target.value)}
-        />
         <input
           type="text"
           placeholder="Username"
@@ -70,7 +59,10 @@ export default function Register() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="button" onClick={handleRegister}>
+        <button type="button" onClick={e => {
+          e.preventDefault()
+          handleRegister()
+        }}>
           Register
         </button>
       </form>

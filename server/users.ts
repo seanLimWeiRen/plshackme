@@ -33,7 +33,6 @@ export async function deleteUserByID(deleteID: string){
 }
 
 export async function createUserAccount(
-  displayName: string,
   username: string,
   email: string,
   passwordHash: string
@@ -63,7 +62,6 @@ export async function createUserAccount(
   try{
     await prisma.user.create({
       data:{
-        name: displayName,
         username: username,
         email: email,
         passwordHash: passwordHash
