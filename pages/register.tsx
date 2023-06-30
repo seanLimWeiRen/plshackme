@@ -3,15 +3,15 @@ import bcrypt from 'bcryptjs';
 
 export default function Register() {
   // There is at least one vulnerabliity in this code (probably)
-  // Also, the setErrorMessage functiond doesn't work. idk why
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const passwordHash = bcrypt.hashSync(password)
 
   const handleRegister = async () => {
     try {
+      const passwordHash = bcrypt.hashSync(password)
+
       const response = await fetch('/api/createUser', {
         method: 'POST',
         headers: {
