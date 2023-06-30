@@ -7,7 +7,7 @@ export default async function createUser(req: any, res: any) {
     let email = req.body.email
     let password = req.body.password
     if(username === "" || email === "" || password === ""){
-      res.status(200).join({ result: "None of these fields can be empty!"})
+      res.status(200).json({ result: "None of these fields can be empty!"})
       return
     }
 
